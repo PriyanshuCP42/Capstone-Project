@@ -1,0 +1,379 @@
+/*  HEADER SECTION */
+header img {
+    height: 20px;
+    margin-left: 2px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #E6EAF3;
+}
+header nav{
+    display: flex;
+    gap: 10px; 
+}
+header img:hover{
+    border: 1px solid gray;
+    background-color: goldenrod;
+    border-radius: 6px;
+}
+.title:hover{
+    border: 1px solid gray;
+    background-color: rgb(10, 115, 190);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* MAIN IMG SECTION */
+
+#section .main{
+    font-weight: 400;
+    font-style: Cutive;
+    font-size: 70px;
+    text-align: center;
+
+}
+
+.main-img{
+    width: 1344px;
+    height: 672px;
+}
+
+#section{
+    margin: 10px px;
+}
+
+
+/* Gallery section */
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1344px;
+    height: 1191px;
+    margin-top: 20px;
+    gap:48px;
+}
+
+/* Content Section */
+
+
+.content1 h1{
+    font-family: Cutive;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400px;
+}
+
+.content .content1 p{
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+button{
+    width: (184px)px;
+    height:  (48px)px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #204F0A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #FBFFFA;
+    margin-left: 590px;
+    margin-top: 2px;
+}
+.content  img{
+    width: 1344px;
+    height: 756px;
+    gap: 0px;
+    border: 2px ;
+    opacity: 0px;
+    margin-top: 20px;
+
+
+}
+
+
+/* Footer content section  */
+
+
+.footer-content div{
+    font-family: Cutive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 900px;
+    height: 260px;
+    max-width: 900px;
+    gap: 0px;
+    opacity: 0px;
+    color: #1D221B;
+}
+.footer-content{
+    width:  (1,344px)px;
+    height: (452px)px;
+    padding: 96px 0px 96px 0px;
+    gap: 0px;
+    border:  2px ;
+    opacity: 0px;
+    background-color: #F5F5EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.footer-content1{
+    width:  (1,344px)px;
+    height:  (250px)px;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    opacity: 0px;
+    background-color: #F5F5EF;
+    display: flex;
+
+}
+.footer-content1 div{
+    width: 648px;
+    height: 154px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Kumbh Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1D221B;
+    margin-left: 640px;
+
+
+}
+
+
+.footer-up{
+    display: flex;
+    width:  (1,344px)px;
+    height: Hug (280px)px;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    opacity: 0px;
+    background-color:  #F5F5EF;
+
+}
+.f-1{
+    width: 648px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Cutive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1D221B;
+    margin: 20px;
+
+
+}
+.footer-up div{
+    width:  (648px)px;
+    height: (184px)px;
+    gap: 16px;
+    opacity: 0px;
+
+}
+.f{
+    width: 300px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.c{
+    font-family: Kumbh Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1D221B;
+}
+button{
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+    color: black;
+
+}
+
+
+/* Review section */
+
+.review{
+    width: (1,344px)px;
+    height:  (388px)px;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    border: 0px 0px 2px 0px;
+    opacity: 0px;
+    background-color:#F5F5EF;
+
+}
+
+.people{
+    font-family: Cutive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.class{
+    width:  (1,344px)px;
+    height: (192px)px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1344px;
+    padding: 20px;
+}
+.testimonial {
+    background-color: #f0f0e4;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.testimonial img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.testimonial h3 {
+    margin: 10px 0 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.testimonial p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+.testimonial .role {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color: #F5F5EF;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+    font-size: 24px;
+    color: #666;
+}
+.contact-button {
+    border: 1px solid #d3d3d3;
+    padding: 10px 20px;
+    background-color: #f8f8f0;
+    color: #666;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-button:hover {
+    background-color: #e8e8e0;
+}
+
+
+
+/* RESPONSIVE */
+
+@media (max-width:780px) and (min-width:480px){
+
+    .pro,.main-img, .content .content1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content1, .footer-up {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content1 div, .footer-up div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header{
+        width: 95%;
+    }
+}
